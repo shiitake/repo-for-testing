@@ -1,4 +1,4 @@
-#### View the current status of your files:
+### View the current status of your files:
 ```Git status ```
 
 * Green files are staged to be committed
@@ -21,13 +21,12 @@
 **Removing or deleting files from being tracked (this won't necessarily delete the file)**  
 ```Git rm <file name>```
 
-#### Committing and pushing changes
+### Committing and pushing changes
 
 **Commit your changes to your local repo**  
 ```Git commit```
 
-This will take you to a page in VIM where you can edit your notes. Once you've completed you can save this in VIM  
-```:wq```
+This will open VIM to add commit notes. To save your notes use the command wq
 
 **Commit your changes with notes inline**  
 ```Git commit -m "Update the readme file"```
@@ -41,7 +40,7 @@ This will take you to a page in VIM where you can edit your notes. Once you've c
 **Commits the change to the main repro**  
 ```Git push```
 
-#### Working with branches
+### Working with branches
 **See local branches**  
 ```git branch```
 
@@ -64,7 +63,7 @@ _**When you create a branch it will only be create locally - if you want that br
 ```git push -u origin <branch name>```
 
 
-#### Merging changes
+### Merging changes
 
 **Merging your branch into the master**  
 
@@ -90,7 +89,7 @@ _**When you create a branch it will only be create locally - if you want that br
 **If things go really wrong you can abort the merge**  
 ```Git merge --abort```
 
-#### What to do when you screw up
+### What to do when you screw up
 
 **When you haven't staged or committed anything, or have staged only changes you no longer want:**  
 ```Git reset --hard (HEAD is default) # This will delete your changes```
