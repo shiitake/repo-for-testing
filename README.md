@@ -23,4 +23,4 @@ Gui clients
 Git documentation
 [https://git-scm.com/doc](https://git-scm.com/doc)
 
-Hey! I hopve you like this new feature I made. 
+Hey! I hope you like this new feature I made. 
