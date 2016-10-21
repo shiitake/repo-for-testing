@@ -25,4 +25,8 @@ Git documentation
 
 Hey! I hope you like this new feature I made. 
 
+<<<<<<< HEAD
 this is great. 
+=======
+no - i dont' liek it.
+>>>>>>> 4dbd14174deed4fe9663c95cef1bb096e43b5c41
