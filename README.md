@@ -14,7 +14,7 @@ Downloading git client
 Install with chocolatey  
 ```choco install git```
 
-Bonus install chocolatey:  
+Bonus install chocolatey. Run the following from and elevated command prompt:  
 ```@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;```
 
 Gui clients
